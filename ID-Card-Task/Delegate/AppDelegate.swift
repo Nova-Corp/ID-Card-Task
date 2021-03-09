@@ -12,10 +12,27 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let loginViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        
+        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if UserDefaults.standard.bool(forKey: "isLoggedIn") {
+            let navigationController = UINavigationController(rootViewController: homeViewController)
+            navigationController.navigationBar.topItem?.title = "Home"
+            window?.rootViewController = navigationController
+        }else{
+            let navigationController = UINavigationController(rootViewController: loginViewController)
+            navigationController.navigationBar.topItem?.title = "Login"
+            window?.rootViewController = navigationController
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

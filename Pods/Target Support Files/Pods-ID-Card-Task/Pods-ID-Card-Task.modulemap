@@ -1,0 +1,6 @@
+framework module Pods_ID_Card_Task {
+  umbrella header "Pods-ID-Card-Task-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IDCardCollectionViewCell" customModule="ID_Card_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="273"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="245" height="273"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y3F-pv-95e">
+                        <rect key="frame" x="0.0" y="0.0" width="245" height="273"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-sC-UD5">
+                                <rect key="frame" x="58.5" y="29" width="128" height="128"/>
+                                <color key="backgroundColor" red="0.39539536829999999" green="0.74087542299999998" blue="0.90983253720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="Gwb-Rn-cG5"/>
+                                    <constraint firstAttribute="height" constant="128" id="f7W-xu-bjr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKu-B7-Kql">
+                                <rect key="frame" x="101.5" y="171" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ba3-yU-63T">
+                                <rect key="frame" x="58.5" y="209.5" width="128" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="9wi-Re-JKH"/>
+                                    <constraint firstAttribute="height" constant="35.5" id="uOG-Xy-XPq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ba3-yU-63T" firstAttribute="centerX" secondItem="y3F-pv-95e" secondAttribute="centerX" id="2GU-jj-WX6"/>
+                            <constraint firstItem="DhD-sC-UD5" firstAttribute="top" secondItem="y3F-pv-95e" secondAttribute="top" constant="29" id="F8a-3O-sFI"/>
+                            <constraint firstItem="dKu-B7-Kql" firstAttribute="top" secondItem="DhD-sC-UD5" secondAttribute="bottom" constant="14" id="Wu7-Hh-l5q"/>
+                            <constraint firstItem="DhD-sC-UD5" firstAttribute="centerX" secondItem="y3F-pv-95e" secondAttribute="centerX" id="ifF-SA-Jdt"/>
+                            <constraint firstAttribute="bottom" secondItem="ba3-yU-63T" secondAttribute="bottom" constant="28" id="rci-K5-ARD"/>
+                            <constraint firstItem="dKu-B7-Kql" firstAttribute="centerX" secondItem="y3F-pv-95e" secondAttribute="centerX" id="sNg-l3-jJA"/>
+                            <constraint firstItem="ba3-yU-63T" firstAttribute="top" secondItem="dKu-B7-Kql" secondAttribute="bottom" constant="18" id="x92-oT-tbR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="y3F-pv-95e" secondAttribute="bottom" id="8EO-xt-pqp"/>
+                <constraint firstItem="y3F-pv-95e" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8Jv-Oh-Vsj"/>
+                <constraint firstAttribute="trailing" secondItem="y3F-pv-95e" secondAttribute="trailing" id="Dgc-nd-DsD"/>
+                <constraint firstItem="y3F-pv-95e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mSI-GA-QeQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="209" height="232"/>
+            <connections>
+                <outlet property="barCodeImageView" destination="ba3-yU-63T" id="kHI-RT-qNI"/>
+                <outlet property="profileImageView" destination="DhD-sC-UD5" id="FJq-Vj-7dm"/>
+                <outlet property="userName" destination="dKu-B7-Kql" id="hB2-sO-2D0"/>
+            </connections>
+            <point key="canvasLocation" x="247.10144927536234" y="198.54910714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

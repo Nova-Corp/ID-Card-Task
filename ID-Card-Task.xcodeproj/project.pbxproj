@@ -7,25 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		138CC8B2330BC5CDB868D7E4 /* Pods_ID_Card_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7F50C953B41F2985DF431F /* Pods_ID_Card_Task.framework */; };
+		841DE44A25F6FFB700A6E5E0 /* UserDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DE44825F6FFB700A6E5E0 /* UserDetails+CoreDataClass.swift */; };
+		841DE45025F704FB00A6E5E0 /* UserDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DE44F25F704FB00A6E5E0 /* UserDetails+CoreDataProperties.swift */; };
+		841DE45525F709C800A6E5E0 /* IDCardContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DE45325F709C800A6E5E0 /* IDCardContainerTableViewCell.swift */; };
+		841DE45625F709C800A6E5E0 /* IDCardContainerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841DE45425F709C800A6E5E0 /* IDCardContainerTableViewCell.xib */; };
+		841DE45A25F70B8600A6E5E0 /* IDCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DE45825F70B8600A6E5E0 /* IDCardCollectionViewCell.swift */; };
+		841DE45B25F70B8600A6E5E0 /* IDCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841DE45925F70B8600A6E5E0 /* IDCardCollectionViewCell.xib */; };
+		841DE45E25F7119500A6E5E0 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DE45D25F7119500A6E5E0 /* UIImageView+Extension.swift */; };
 		84DD2DD225F64BCC00D4B9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DD125F64BCC00D4B9BA /* AppDelegate.swift */; };
 		84DD2DD425F64BCC00D4B9BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DD325F64BCC00D4B9BA /* SceneDelegate.swift */; };
-		84DD2DD625F64BCC00D4B9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DD525F64BCC00D4B9BA /* ViewController.swift */; };
+		84DD2DD625F64BCC00D4B9BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DD525F64BCC00D4B9BA /* LoginViewController.swift */; };
 		84DD2DD925F64BCC00D4B9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2DD725F64BCC00D4B9BA /* Main.storyboard */; };
 		84DD2DDC25F64BCC00D4B9BA /* ID_Card_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DDA25F64BCC00D4B9BA /* ID_Card_Task.xcdatamodeld */; };
 		84DD2DDE25F64BCE00D4B9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2DDD25F64BCE00D4B9BA /* Assets.xcassets */; };
 		84DD2DE125F64BCE00D4B9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2DDF25F64BCE00D4B9BA /* LaunchScreen.storyboard */; };
+		84DD2DEE25F6510200D4B9BA /* InputValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DED25F6510200D4B9BA /* InputValidationService.swift */; };
+		84DD2DF025F6511E00D4B9BA /* LocalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DEF25F6511E00D4B9BA /* LocalError.swift */; };
+		84DD2DF525F6530400D4B9BA /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DF225F6530400D4B9BA /* UIViewController+Extensions.swift */; };
+		84DD2DFA25F6542E00D4B9BA /* AdminUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DF925F6542E00D4B9BA /* AdminUser.swift */; };
+		84DD2DFC25F65B3200D4B9BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DFB25F65B3200D4B9BA /* HomeViewController.swift */; };
+		84DD2DFE25F66EDA00D4B9BA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DFD25F66EDA00D4B9BA /* String+Extension.swift */; };
+		84DD2E0025F6770300D4B9BA /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2DFF25F6770300D4B9BA /* UIAlertController+Extension.swift */; };
+		84DD2E0225F696F700D4B9BA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2E0125F696F700D4B9BA /* DetailsViewController.swift */; };
+		84DD2E0525F698B700D4B9BA /* UserDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2E0325F698B700D4B9BA /* UserDetailsTableViewCell.swift */; };
+		84DD2E0625F698B700D4B9BA /* UserDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2E0425F698B700D4B9BA /* UserDetailsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7590554FA5B451F5DF198F /* Pods-ID-Card-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ID-Card-Task.release.xcconfig"; path = "Target Support Files/Pods-ID-Card-Task/Pods-ID-Card-Task.release.xcconfig"; sourceTree = "<group>"; };
+		0F7F50C953B41F2985DF431F /* Pods_ID_Card_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ID_Card_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421953380559945CE2DD6851 /* Pods-ID-Card-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ID-Card-Task.debug.xcconfig"; path = "Target Support Files/Pods-ID-Card-Task/Pods-ID-Card-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		841DE44825F6FFB700A6E5E0 /* UserDetails+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		841DE44F25F704FB00A6E5E0 /* UserDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		841DE45325F709C800A6E5E0 /* IDCardContainerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardContainerTableViewCell.swift; sourceTree = "<group>"; };
+		841DE45425F709C800A6E5E0 /* IDCardContainerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IDCardContainerTableViewCell.xib; sourceTree = "<group>"; };
+		841DE45825F70B8600A6E5E0 /* IDCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		841DE45925F70B8600A6E5E0 /* IDCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IDCardCollectionViewCell.xib; sourceTree = "<group>"; };
+		841DE45D25F7119500A6E5E0 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		84DD2DCE25F64BCC00D4B9BA /* ID-Card-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ID-Card-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DD2DD125F64BCC00D4B9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DD2DD325F64BCC00D4B9BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84DD2DD525F64BCC00D4B9BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DD2DD525F64BCC00D4B9BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84DD2DD825F64BCC00D4B9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DD2DDB25F64BCC00D4B9BA /* ID_Card_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ID_Card_Task.xcdatamodel; sourceTree = "<group>"; };
 		84DD2DDD25F64BCE00D4B9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DD2DE025F64BCE00D4B9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DD2DE225F64BCE00D4B9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD2DED25F6510200D4B9BA /* InputValidationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputValidationService.swift; sourceTree = "<group>"; };
+		84DD2DEF25F6511E00D4B9BA /* LocalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalError.swift; sourceTree = "<group>"; };
+		84DD2DF225F6530400D4B9BA /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84DD2DF925F6542E00D4B9BA /* AdminUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminUser.swift; sourceTree = "<group>"; };
+		84DD2DFB25F65B3200D4B9BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84DD2DFD25F66EDA00D4B9BA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		84DD2DFF25F6770300D4B9BA /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		84DD2E0125F696F700D4B9BA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		84DD2E0325F698B700D4B9BA /* UserDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		84DD2E0425F698B700D4B9BA /* UserDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +71,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138CC8B2330BC5CDB868D7E4 /* Pods_ID_Card_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6735B94BB1E225B9147F7711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421953380559945CE2DD6851 /* Pods-ID-Card-Task.debug.xcconfig */,
+				0C7590554FA5B451F5DF198F /* Pods-ID-Card-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		841DE44225F6FECF00A6E5E0 /* UserDetailsModel */ = {
+			isa = PBXGroup;
+			children = (
+				841DE44825F6FFB700A6E5E0 /* UserDetails+CoreDataClass.swift */,
+				841DE44F25F704FB00A6E5E0 /* UserDetails+CoreDataProperties.swift */,
+			);
+			path = UserDetailsModel;
+			sourceTree = "<group>";
+		};
+		841DE45725F709D300A6E5E0 /* IDCardContainerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				841DE45325F709C800A6E5E0 /* IDCardContainerTableViewCell.swift */,
+				841DE45425F709C800A6E5E0 /* IDCardContainerTableViewCell.xib */,
+			);
+			path = IDCardContainerTableViewCell;
+			sourceTree = "<group>";
+		};
+		841DE45C25F70B8C00A6E5E0 /* IDCardCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				841DE45825F70B8600A6E5E0 /* IDCardCollectionViewCell.swift */,
+				841DE45925F70B8600A6E5E0 /* IDCardCollectionViewCell.xib */,
+			);
+			path = IDCardCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		84DD2DC525F64BCC00D4B9BA = {
 			isa = PBXGroup;
 			children = (
 				84DD2DD025F64BCC00D4B9BA /* ID-Card-Task */,
 				84DD2DCF25F64BCC00D4B9BA /* Products */,
+				6735B94BB1E225B9147F7711 /* Pods */,
+				B87DCEB5619AE2BBB01DAE37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +135,102 @@
 		84DD2DD025F64BCC00D4B9BA /* ID-Card-Task */ = {
 			isa = PBXGroup;
 			children = (
+				84DD2DE825F64CCD00D4B9BA /* Delegate */,
+				84DD2DF825F6541C00D4B9BA /* Model */,
+				84DD2DEC25F650E700D4B9BA /* Service */,
+				84DD2DE925F64CDE00D4B9BA /* Controller */,
+				84DD2DEA25F64CEF00D4B9BA /* View */,
+				84DD2DEB25F64CFE00D4B9BA /* Global */,
+			);
+			path = "ID-Card-Task";
+			sourceTree = "<group>";
+		};
+		84DD2DE825F64CCD00D4B9BA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				84DD2DD125F64BCC00D4B9BA /* AppDelegate.swift */,
 				84DD2DD325F64BCC00D4B9BA /* SceneDelegate.swift */,
-				84DD2DD525F64BCC00D4B9BA /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84DD2DE925F64CDE00D4B9BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84DD2DD525F64BCC00D4B9BA /* LoginViewController.swift */,
+				84DD2DFB25F65B3200D4B9BA /* HomeViewController.swift */,
+				84DD2E0125F696F700D4B9BA /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84DD2DEA25F64CEF00D4B9BA /* View */ = {
+			isa = PBXGroup;
+			children = (
 				84DD2DD725F64BCC00D4B9BA /* Main.storyboard */,
+				84DD2E0725F698BE00D4B9BA /* UserDetailsTableViewCell */,
+				841DE45725F709D300A6E5E0 /* IDCardContainerTableViewCell */,
+				841DE45C25F70B8C00A6E5E0 /* IDCardCollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DD2DEB25F64CFE00D4B9BA /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				84DD2DF125F6530400D4B9BA /* Extensions */,
 				84DD2DDD25F64BCE00D4B9BA /* Assets.xcassets */,
 				84DD2DDF25F64BCE00D4B9BA /* LaunchScreen.storyboard */,
 				84DD2DE225F64BCE00D4B9BA /* Info.plist */,
 				84DD2DDA25F64BCC00D4B9BA /* ID_Card_Task.xcdatamodeld */,
 			);
-			path = "ID-Card-Task";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		84DD2DEC25F650E700D4B9BA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84DD2DEF25F6511E00D4B9BA /* LocalError.swift */,
+				84DD2DED25F6510200D4B9BA /* InputValidationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84DD2DF125F6530400D4B9BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84DD2DF225F6530400D4B9BA /* UIViewController+Extensions.swift */,
+				84DD2DFD25F66EDA00D4B9BA /* String+Extension.swift */,
+				84DD2DFF25F6770300D4B9BA /* UIAlertController+Extension.swift */,
+				841DE45D25F7119500A6E5E0 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84DD2DF825F6541C00D4B9BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841DE44225F6FECF00A6E5E0 /* UserDetailsModel */,
+				84DD2DF925F6542E00D4B9BA /* AdminUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84DD2E0725F698BE00D4B9BA /* UserDetailsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84DD2E0325F698B700D4B9BA /* UserDetailsTableViewCell.swift */,
+				84DD2E0425F698B700D4B9BA /* UserDetailsTableViewCell.xib */,
+			);
+			path = UserDetailsTableViewCell;
+			sourceTree = "<group>";
+		};
+		B87DCEB5619AE2BBB01DAE37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F50C953B41F2985DF431F /* Pods_ID_Card_Task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84DD2DE525F64BCE00D4B9BA /* Build configuration list for PBXNativeTarget "ID-Card-Task" */;
 			buildPhases = (
+				96DBE8F0C74CED60420D444C /* [CP] Check Pods Manifest.lock */,
 				84DD2DCA25F64BCC00D4B9BA /* Sources */,
 				84DD2DCB25F64BCC00D4B9BA /* Frameworks */,
 				84DD2DCC25F64BCC00D4B9BA /* Resources */,
@@ -129,22 +293,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DD2DE125F64BCE00D4B9BA /* LaunchScreen.storyboard in Resources */,
+				841DE45625F709C800A6E5E0 /* IDCardContainerTableViewCell.xib in Resources */,
+				84DD2E0625F698B700D4B9BA /* UserDetailsTableViewCell.xib in Resources */,
 				84DD2DDE25F64BCE00D4B9BA /* Assets.xcassets in Resources */,
 				84DD2DD925F64BCC00D4B9BA /* Main.storyboard in Resources */,
+				841DE45B25F70B8600A6E5E0 /* IDCardCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96DBE8F0C74CED60420D444C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ID-Card-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84DD2DCA25F64BCC00D4B9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DD2DD625F64BCC00D4B9BA /* ViewController.swift in Sources */,
+				84DD2DEE25F6510200D4B9BA /* InputValidationService.swift in Sources */,
+				84DD2DD625F64BCC00D4B9BA /* LoginViewController.swift in Sources */,
+				841DE45525F709C800A6E5E0 /* IDCardContainerTableViewCell.swift in Sources */,
+				84DD2E0025F6770300D4B9BA /* UIAlertController+Extension.swift in Sources */,
+				84DD2DF025F6511E00D4B9BA /* LocalError.swift in Sources */,
+				84DD2DF525F6530400D4B9BA /* UIViewController+Extensions.swift in Sources */,
 				84DD2DDC25F64BCC00D4B9BA /* ID_Card_Task.xcdatamodeld in Sources */,
+				84DD2DFC25F65B3200D4B9BA /* HomeViewController.swift in Sources */,
+				841DE45A25F70B8600A6E5E0 /* IDCardCollectionViewCell.swift in Sources */,
 				84DD2DD225F64BCC00D4B9BA /* AppDelegate.swift in Sources */,
+				84DD2DFA25F6542E00D4B9BA /* AdminUser.swift in Sources */,
+				84DD2DFE25F66EDA00D4B9BA /* String+Extension.swift in Sources */,
+				841DE45E25F7119500A6E5E0 /* UIImageView+Extension.swift in Sources */,
 				84DD2DD425F64BCC00D4B9BA /* SceneDelegate.swift in Sources */,
+				841DE45025F704FB00A6E5E0 /* UserDetails+CoreDataProperties.swift in Sources */,
+				84DD2E0525F698B700D4B9BA /* UserDetailsTableViewCell.swift in Sources */,
+				84DD2E0225F696F700D4B9BA /* DetailsViewController.swift in Sources */,
+				841DE44A25F6FFB700A6E5E0 /* UserDetails+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +492,12 @@
 		};
 		84DD2DE625F64BCE00D4B9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421953380559945CE2DD6851 /* Pods-ID-Card-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "ID-Card-Task/Info.plist";
+				INFOPLIST_FILE = "ID-Card-Task/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +511,12 @@
 		};
 		84DD2DE725F64BCE00D4B9BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7590554FA5B451F5DF198F /* Pods-ID-Card-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "ID-Card-Task/Info.plist";
+				INFOPLIST_FILE = "ID-Card-Task/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
